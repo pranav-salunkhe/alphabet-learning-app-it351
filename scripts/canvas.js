@@ -600,15 +600,15 @@ function random_letter()
 			/*document.getElementById('letter').style.opacity = '0.5';*/
 			if(total==0)
 			{
-				document.getElementById("points").innerHTML = "0 Point... Essaie encore!";
+				document.getElementById("points").innerHTML = "0 Point...";
 			}
 			else if(total==1)
 			{
-				document.getElementById("points").innerHTML = "1 Point! Mieux que rien!";
+				document.getElementById("points").innerHTML = "1 Point!!";
 			}
 			else if(total<=5)
 			{
-				document.getElementById("points").innerHTML = total+" Points. Pas mal!";
+				document.getElementById("points").innerHTML = total+" Points!";
 			}
 			else if(total<=10)
 			{
@@ -616,11 +616,11 @@ function random_letter()
 			}
 			else if(total<=20)
 			{
-				document.getElementById("points").innerHTML = total+" Points! Génial!!";
+				document.getElementById("points").innerHTML = total+" Points!!!";
 			}
 			else
 			{
-				document.getElementById("points").innerHTML = total+" Points! Extraordinaire!!!";
+				document.getElementById("points").innerHTML = total+" Points!!!";
 			}
 			$("#popupNon").popup("open",{positionTo:"#imageView"});
 		}
@@ -632,15 +632,15 @@ function random_letter()
 			writeScoreToXml(5,getDateDuJour(),1);
 			if(total==0)
 			{
-				document.getElementById("points").innerHTML = "0 Point... Essaie encore!";
+				document.getElementById("points").innerHTML = "0 Point...";
 			}
 			else if(total==1)
 			{
-				document.getElementById("points").innerHTML = "1 Point! Mieux que rien!";
+				document.getElementById("points").innerHTML = "1 Point!";
 			}
 			else if(total<=5)
 			{
-				document.getElementById("points").innerHTML = total+" Points. Pas mal!";
+				document.getElementById("points").innerHTML = total+" Points.";
 			}
 			else if(total<=10)
 			{
@@ -648,11 +648,11 @@ function random_letter()
 			}
 			else if(total<=20)
 			{
-				document.getElementById("points").innerHTML = total+" Points! Génial!!";
+				document.getElementById("points").innerHTML = total+" Points!";
 			}
 			else
 			{
-				document.getElementById("points").innerHTML = total+" Points! Extraordinaire!!!";
+				document.getElementById("points").innerHTML = total+" Points!";
 			}
 			$("#popupOui").popup("open",{positionTo:"#imageView"});
 			
